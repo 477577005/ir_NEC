@@ -38,9 +38,9 @@
 		prescaler 分频；couter period 计数周期
 		计数时间=计数周期/频率
 		中断类型						触发条件						典型应用场景
-		Break Interrupt				外部断路信号输入				紧急停机、硬件保护
+		Break Interrupt				外部断路信号输入						紧急停机、硬件保护
 		Update Interrupt			计数器溢出/手动更新				周期性任务、定时器参数调整
-		Trigger & Commutation		外部触发/电机换相事件			多定时器同步、电机控制
-		Capture Compare Interrupt	捕获边沿或计数器匹配比较寄存器	脉冲测量、PWM生成
+		Trigger & Commutation			外部触发/电机换相事件				多定时器同步、电机控制
+		Capture Compare Interrupt		捕获边沿或计数器匹配比较寄存器			脉冲测量、PWM生成
 	7、学会使用串口打印数据进行分析，规划协议解析方式
 	8、对GPIO的输入输出分析，使用逻辑分析仪提高处理问题效率
